@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CXForge Security
+    url: https://github.com/cxforge/.github/blob/main/SECURITY.md
+    about: Please report security vulnerabilities here.
+  - name: CXForge Documentation
+    url: https://github.com/cxforge/.github/blob/main/brand/README.md
+    about: Learn about our brand and organization.
