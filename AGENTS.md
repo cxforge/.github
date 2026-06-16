@@ -74,6 +74,18 @@ Before performing these actions, AI assistants MUST ask for explicit user confir
 
 ---
 
+## 🤖 Commit Attribution
+
+All commits created by AI assistants must end with this co-author trailer and no other:
+
+```
+Co-Authored-By: cxforge-ai[bot] <294013182+cxforge-ai[bot]@users.noreply.github.com>
+```
+
+Do NOT include model-specific co-author lines such as `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`. The bot attribution is the single source of truth for AI-assisted work across all cxforge repositories.
+
+---
+
 ## 📁 Protected File Patterns
 
 AI assistants should NOT read or suggest edits to these files unless explicitly asked:
