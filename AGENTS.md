@@ -156,15 +156,39 @@ Files containing these keywords in their names (case-insensitive):
 
 ### When Suggesting Changes
 
-1. **Consider the Plan:**
-   - All repositories should have documentation in standardized folders:
-     - `.specs/` — Application specifications and standards
-     - `.agents/` — AI assistant specific instructions
-     - `.plans/` — Task instructions and implementation plans
-   - Check these folders for architectural guidance before suggesting changes
-   - Ensure suggestions align with documented architecture
-   - Don't introduce new dependencies without justification
-   - Aim to keep these documentation folders up to date
+1. **Find the documentation before changing anything.**
+
+   Every repository carries four kinds of context. What matters is which kind a
+   thing is, and whether it is committed. Folder names are each repository's own
+   business:
+
+   | Kind | Committed | Seen in this org as |
+   |------|-----------|---------------------|
+   | Durable documentation | **yes** | `docs/`, `.specs/` |
+   | Agent instructions | **yes** | `AGENTS.md` at the repository root |
+   | Temporary planning | no, gitignored | `task/`, `.plans/` |
+   | Scratch artifacts | no, gitignored | `temp/` |
+
+   `AGENTS.md` at the root is the one constant, because every AI tool converges
+   on it. Read it first, then follow it to whatever the repository calls the
+   rest.
+
+   Then: check that documentation for architectural guidance before suggesting
+   changes, keep suggestions aligned with it, update it in the same pull request
+   as the change it describes, and do not introduce new dependencies without
+   justification.
+
+   > **Retired 2026-08-25.** This section used to require `.specs/`, `.agents/`
+   > and `.plans/` in every repository. It was not being followed: `plastylab`
+   > uses `docs/`, `task/` and `temp/`, `climbnthrive-specs` uses `docs/`, and
+   > `climbnthrive-environment` uses the older layout. All of them already
+   > satisfy the categories above, so nothing is being renamed.
+   >
+   > It was retired rather than reissued with different folder names, because a
+   > second mandate would only reproduce the same divergence: the first
+   > repository with a good reason to differ breaks it, and again there is no
+   > record of why. Categories can be satisfied by any layout, which is what
+   > makes them cheap enough to actually hold.
 
 2. **Staging → Production Flow:**
    - Always suggest staging-first approach
