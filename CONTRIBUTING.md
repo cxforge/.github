@@ -1,6 +1,7 @@
-# Contributing to CXForge Solutions
+# Contributing
 
-Thank you for your interest in contributing to CXForge Solutions! We're building tools that prioritize creative experiences, and we'd love your help.
+Thank you for your interest in contributing. The repositories in this
+organisation belong to **CXFOS Ventures Inc.**
 
 ---
 

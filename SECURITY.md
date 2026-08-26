@@ -6,8 +6,9 @@
 
 Instead, please report security issues via:
 
-- **Email:** security@cxforge.io (PGP key available upon request)
-- **GitHub Private Vulnerability Reporting:** Enabled on all repositories
+- **GitHub Private Vulnerability Reporting**, enabled on all repositories. This
+  is the preferred channel.
+- **Email:** [contact@plastylab.com](mailto:contact@plastylab.com)
 
 ## Response Process
 
@@ -29,7 +30,7 @@ When reporting a vulnerability, please include:
 
 This security policy applies to:
 - All repositories under github.com/cxforge
-- Production infrastructure at cxforge.io domains
+- Production infrastructure at plastylab.com
 - Container images and artifacts published by this organization
 
 ## Out of Scope

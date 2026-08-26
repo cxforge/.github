@@ -1,6 +1,10 @@
-# AI Assistant Guidelines for CXForge Solutions
+# AI Assistant Guidelines
 
-**Purpose:** This document provides guidelines for AI assistants (like Cursor, GitHub Copilot, etc.) working on CXForge repositories to ensure security, consistency, and quality.
+**Purpose:** Guidelines for AI assistants working on repositories belonging to
+**CXFOS Ventures Inc.**, to keep work secure, consistent and reviewable.
+
+These apply org-wide. A repository's own `AGENTS.md` adds to them and takes
+precedence where it is more specific.
 
 ---
 
@@ -82,7 +86,7 @@ All commits created by AI assistants must end with this co-author trailer and no
 Co-Authored-By: cxforge-ai[bot] <294013182+cxforge-ai[bot]@users.noreply.github.com>
 ```
 
-Do NOT include model-specific co-author lines such as `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`. The bot attribution is the single source of truth for AI-assisted work across all cxforge repositories.
+Do NOT include model-specific co-author lines such as `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`. The bot attribution is the single source of truth for AI-assisted work across every repository in this organisation.
 
 ---
 
