@@ -8,7 +8,7 @@ This is a special repository that contains the GitHub organization profile and d
 - **AGENTS.md** — AI assistant guidelines and security policies
 - **CONTRIBUTING.md** — Contribution guidelines for all repos
 - **SECURITY.md** — Security vulnerability reporting
-- **brand/** — Brand guidelines and assets
+- **brand/** — Where each product's brand guidance lives
 - **ISSUE_TEMPLATE/** — Default issue templates
 - **.specs/** — Organization-wide specifications
 - **.agents/** — AI context for this repo
@@ -17,7 +17,7 @@ This is a special repository that contains the GitHub organization profile and d
 ## Purpose
 
 This repository configures:
-- The public organization profile page
+- The public organization profile page for CXFOS Ventures Inc.
 - Default issue/PR templates for all repos
 - Security policies and vulnerability reporting
 - Brand and contribution standards

@@ -1,52 +1,46 @@
-# CXForge Solutions
+# CXFOS Ventures Inc.
 
-> **Forging creative experiences** — tools that help people thrive.
-
----
-
-## Who We Are
-
-CXForge Solutions is a digital product studio building tools and platforms that prioritize the human experience. We believe technology should spark creativity, foster connection, and make life better — not more complicated.
-
-### The Name
-
-**CX** = **Creative Experience** (from a 20-year evolution from "Cyber Extreme" to customer experience to creative experience)  
-**Forge** = Where ideas are built, crafted, and shaped into reality
+Small, deliberate products, built and run from Alberta, Canada.
 
 ---
 
-## What We're Building
+## What we build
 
-### 🧗 Climb'n Thrive
-A personal finance platform helping people climb out of debt and thrive in life.
+### PlastyLab
 
-- **Focus:** Budgeting, debt management, financial wellness
-- **Status:** In development
-- **Note:** Final branding may evolve
+3D printed goods, designed and made to order. Desk objects and tabletop pieces,
+plus custom and branded work for businesses.
 
----
+- **Shop:** [plastylab.com](https://plastylab.com)
+- **Status:** selling
 
-## Philosophy
+### A personal finance product
 
-1. **Creative-First** — Start with the experience, build the tech to match
-2. **Crafted Quality** — Intentionally built, never rushed
-3. **Human-Centered** — Technology serves people
-4. **Heritage Honoring** — 20+ years of evolution from gaming to products
+An AI-first budgeting and debt guide, where the assistant does the work of
+understanding your spending rather than handing you another spreadsheet.
 
----
-
-## For Developers
-
-Interested in contributing? Check our [Contributing Guidelines](./CONTRIBUTING.md).
+- **Status:** in development, name not yet decided
 
 ---
 
-## Connect
+## How we work
 
-- **Website:** [cxforge.io](https://cxforge.io)
-- **Organization:** github.com/cxforge
-- **Founder:** @cxfos (Felipe)
+1. **Finish things.** A small product that ships beats a large one that does not.
+2. **Own the numbers.** What something costs to make is known before it is priced.
+3. **Human-centred.** Technology serves people, not the other way round.
 
 ---
 
-*Forging creative experiences from Brazil and Canada to the world.* 🌎
+## Contact
+
+[contact@plastylab.com](mailto:contact@plastylab.com)
+
+Security reports: see [SECURITY.md](../SECURITY.md).
+
+---
+
+## About the name
+
+This organisation is `cxforge` for historical reasons, and the slug is kept so
+existing repository URLs, container images and hostnames keep working. The
+corporation is **CXFOS Ventures Inc.**, and each product carries its own name.
